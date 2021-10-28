@@ -10,6 +10,7 @@ public class Terminal {
     public Terminal(){}
     public void start_work()
     {
+
         Thread ATM1 = new Thread(work_atm_first);
         Thread ATM2 = new Thread(work_atm_second);
         Thread ATM3 = new Thread(work_atm_third);

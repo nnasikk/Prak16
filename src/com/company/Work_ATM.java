@@ -16,6 +16,7 @@ public class Work_ATM implements Runnable{
     {
         while (true)
         {
+
             synchronized (Terminal.monitor)
             {
                 try {

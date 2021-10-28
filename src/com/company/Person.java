@@ -4,7 +4,8 @@ public class Person {
     private String name;
     private int balance;
 
-    public Person(String name, int balance) {
+    public Person(String name, int balance)
+    {
         this.name = name;
         this.balance = balance;
     }
